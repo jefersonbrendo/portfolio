@@ -44,6 +44,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -106,7 +107,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 35%;
+    width: 50%;
 }
 
 .rodape {
