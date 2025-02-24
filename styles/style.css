@@ -18,8 +18,8 @@
 }
 
 
-body {
-    min-height: 100vh;
+html, body {
+    height: 100vh;
 
     box-sizing: border-box;
     background-color: var(--cor-primaria);
@@ -111,7 +111,8 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 40%;
+    max-width: 40%;
+    object-fit: cover;
 }
 
 .rodape {
