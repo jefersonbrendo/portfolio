@@ -34,13 +34,13 @@ body {
 .cabecalho__menu__link {
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-decoration: none;
 }
 
 .apresentacao {
-    padding: 5% 15%;  
+    padding: 4% 15%;  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,11 +51,11 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 24px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: var(--fonte-principal);
 }
 
@@ -65,7 +65,7 @@ body {
 
 
 .apresentacao__conteudo__subtitulo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -75,7 +75,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
+    gap: 24px;
 }
  
 .apresentacao__links__subtitulo {
@@ -92,7 +92,7 @@ body {
     font-size: 1.5rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    padding: 21.5px 0px;
+    padding: 5% 0px;
     border: 2px solid var(--cor-terciaria);
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -107,7 +107,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 40%;
 }
 
 .rodape {
@@ -118,5 +118,5 @@ body {
     font-weight: 400;
     text-align: center;
 
-    padding: 24px;
+    padding: 2%;
 }
